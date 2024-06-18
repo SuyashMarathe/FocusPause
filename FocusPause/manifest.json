@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "AutoPause",
+    "version": "1.1",
+    "description": "Pauses the video when the browser tab loses focus and plays it when the tab gains focus.",
+    "permissions": [
+      "activeTab"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
