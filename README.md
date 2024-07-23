@@ -1,6 +1,6 @@
-# AutoPause
+# FocusPause
 
-**AutoPause** is a Chrome extension that enhances your video watching experience by automatically pausing videos when you switch away from the browser and resuming them when you return. This is especially useful for people who multitask with multiple applications, such as developers who switch between coding tutorials and their IDE.
+**FocusPause** is a Chrome extension that enhances your video watching experience by automatically pausing videos when you switch away from the browser and resuming them when you return. This is especially useful for people who multitask with multiple applications, such as developers who switch between coding tutorials and their IDE.
 
 ## Features
 
@@ -30,6 +30,3 @@
 - `background.js`: Handles the background tasks for the extension.
 - `content.js`: Contains the logic for pausing and resuming videos based on tab visibility.
 
-## License
-
-This project is licensed under the MIT License.
